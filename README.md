@@ -36,4 +36,4 @@ A dynamic and interactive Quiz App built with React. Users can take quizzes with
 - **Netlify**: Deployed for online access.
 
 ## Deployed Application
-Check out the live version of the project here: [Quiz App](#)
+Check out the live version of the project here: [Quizzical Trivzia](https://react-trivzia.netlify.app/)
