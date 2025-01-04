@@ -1,0 +1,124 @@
+body {
+    background: #F5F7FB;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Karla', sans-serif;
+}
+
+h2, h3, p {
+    margin: 0;
+    letter-spacing: 0.02em;
+}
+
+.app--container {
+    max-width: 900px;
+    margin: 30px;
+}
+
+.app-title {
+    color: #293264;
+    text-align: center;
+    font-size: 31px;
+    letter-spacing: 0.02em;
+    margin-top: 200px;
+    margin-bottom: 14px;
+}
+
+.app-description {
+    color: #293264;
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    margin-bottom: 25px;
+}
+
+.get-started-button {
+    background: #4D5B9E;
+    width: 193px;
+    height: 52px;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #F5F7FB;
+    cursor: pointer;
+}
+
+.quizpage--container {
+    display: flex;
+    flex-direction: column;
+}
+
+.mcq--question, .quizpage--result-statement {
+    font-size: 20px;
+    color: #293264;
+    margin-top: 40px;
+    margin-bottom: 16px;
+    line-height: 25px;
+}
+
+.option--button, .option--selected, 
+    .correct-option, .incorrect-selection,
+    .option--not-selected {
+    padding: 5px 12px;
+    min-width: 80px;
+    margin-right: 18px;
+    margin-bottom: 40px;
+    background: #F5F7FB;
+    border: 0.8px solid #4D5B9E;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #293264;
+    cursor: pointer;
+}
+
+.option--selected {
+    background: #D6DBF5;
+    border: 0.8px solid transparent;
+    box-sizing: border-box;
+}
+
+.correct-option {
+    background: #94D7A2;
+    border: 0.8px solid transparent;
+    box-sizing: border-box;
+}
+
+.incorrect-selection {
+    background: #F8BCBC;
+    border: 0.8px solid transparent;
+    box-sizing: border-box;
+    color: #29326480;
+}
+
+.option--not-selected {
+    border-color: #29326480;
+    color: #29326480;
+}
+
+.mcq--separator {
+    border: 0.8px solid #DBDEF0;
+}
+
+.quizpage--button {
+    background: #4D5B9E;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    border: none;
+    width: 140px;
+    height: 42px;
+    border-radius: 14px;
+    color: #F5F7FB;
+    align-self: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
